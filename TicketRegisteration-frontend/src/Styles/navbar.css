@@ -1,0 +1,32 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 3em;
+    margin: 0;
+    background-color: rgb(246, 243, 239);
+    height: 9vh;
+    align-items: center;
+}
+.logo{
+    font-size: larger;
+    font-weight: bold;
+}
+.logo>button{
+    border: none;
+    cursor: pointer;
+    background: inherit;
+    color: rgb(39, 37, 147);
+    font-size: larger;
+    font-weight: bold;
+    font-family: cursive;
+}
+.options>a{
+     text-decoration: none;
+     margin: 0px 1em;
+     color: rgb(6, 6, 78);
+     font-size: 1.2em;
+}
+#icon1,#icon2{
+    position: relative;
+    top: 5px;
+}
